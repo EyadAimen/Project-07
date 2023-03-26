@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+body{
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 400;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+
+.buttons{
+    font-family: Open Sans;
+    transition: 0.5s;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 50px;
+    height: 7.5vh;
+    width: 20vw;
+    background-color: hsl(198, 60%, 50%);
+}
+.buttons:hover{
+    background-color: hsl(176, 68%, 64%);
+    transform: translateY(2px);
+}
+.buttons:active{
+    transform: translateY(4px);
+}
+a{
+    font-family: Raleway;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+/* the header part */
+
+header{
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 4%;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+}
+
+.navLinks li{
+    margin: 0% 20px;
+}
+
+
+/* the intro part */
+.intro{
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+}
+#par{
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+
+.intoBottom{
+    background-image: url(bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    /* background-size:  100vw -50vh ; */
+    background-position: 60% 10%;
+}
+/* The features part */
+.features{
+    font-size: 14;
+    margin-top: 16%;
+    padding: 0% 19.5% 7.5% 19.5%;
+    background-color: hsl(218, 28%, 13%);
+}
+/* Top part */
+.top{
+    display: flex;
+    margin-bottom: 10%;
+}
+#topLeft{
+    margin-right: 10%;
+    /* margin-left: 20%; */
+}
+
+
+/* Bottom part */
+.bottom{
+    display: flex;
+}
+#bottomLeft{
+    margin-right: 10%;
+    /* margin-left: 20%; */
+}
+
+#space{
+    margin-bottom: 2%;
+}
+
+/* stay productive part */
+.stayProd{
+    padding: 0% 5%;
+    display: flex;
+    background-color: hsl(218, 28%, 13%);
+}
+#stayProdParagrapgs{
+    font-size: 16px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+#specialLink{
+    color:  hsl(176, 68%, 64%);
+    border-bottom: solid 0.5px;
+    width: fit-content;
+    display: flex;
+
+}
+#specialLink svg{
+    margin-top: 18px;
+    margin-left: 5px;
+    fill: hsl(176, 68%, 64%);
+}
+#specialLink:hover{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    text-decoration: none;
+}
+#specialLink:hover .et_pb_code svg * {
+    stroke: hsl(0, 0%, 100%);
+}
+/* .arrowIcon{
+    height: 16px;
+    width: 16px;
+    margin-top: 15px;
+    margin-left: 5px;
+} */
+
+
+/* Reviews part */
+.testimonials{
+    background-image: url(bg-quotes.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 8%;
+    padding-left: 0.5%;
+}
+.testimonialCard{
+    background-color: hsl(219, 30%, 18%);
+    padding: 2% 1.5%;
+    margin-top: 3.5%;
+    margin-right: 3.5%;
+    box-shadow: 7px 8px 5px 0px hsl(215, 25%, 14%);
+}
+
+.testimonialInfo{
+    display: flex;
+}
+.testimonialImage{
+    
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 3.5%;
+}
+
+.positon{
+    font-size: 0.6rem;
+}
+.name{
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+
+/* email part */
+.earlyAccess{
+    position: relative;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: -8%;
+    padding: 3% 1% 1% 1%;
+    box-shadow: 5px 5px 5px 0px hsl(215, 26%, 9%);
+}
+form{
+    padding-top: 2%;
+}
+#email{
+    font-family: Open Sans;
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    height: 7.5vh;
+    width: 27vw;
+    padding: 0% 3%;
+    margin-right: 3%;
+}
+#small{
+    font-size: 2rem;
+}
+#email:focus{
+    outline: none;
+}
+#submit{
+    font-size: 14px;
+    width: 15vw;
+}
+#errorMsg{
+    font-size: 0.8rem;
+    text-align: left;
+    color: hsl(0, 100%, 63%);
+    margin-left: 12%;
+}
+/* footer */
+footer{
+    font-family: Open Sans;
+    background-color: hsl(216, 53%, 9%);
+    padding: 12% 6% 5% 6%;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.location{
+    display: flex;
+}
+#location{
+    width: 5%;
+    height: 15%;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+.images{
+    margin-top: 10%;
+    margin-right: 10%;
+    height: 20px;
+    width: 22px;
+}
+.contacts{
+    list-style: none;
+}
+.contacts li{
+    display: flex;
+}
+#aboutUs{
+    list-style: none;
+}
+#aboutUs li{
+    margin-bottom: 15px;
+}
+
+.termsPolicy{
+    list-style: none;
+}
+.termsPolicy li{
+    margin-bottom: 15px;
+}
+.footerLinks:hover{
+    text-decoration: none;
+    font-weight: 700;
+}
+#socials{
+    display: flex;
+}
+
+.socialLinks{
+    color: hsl(0, 0%, 100%);
+    border: 0.5px solid ;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.socialLinks:hover{
+    color: hsl(176, 68%, 64%);
+}
